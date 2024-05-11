@@ -1,0 +1,6 @@
+images = []
+labels = []
+for img_path in ['path_to_positive_images', 'path_to_negative_images']:  # 
+    for filename in os.listdir(img_path):
+        img = cv2.imread(os.path.join(img_path, filename), 0)
+        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
