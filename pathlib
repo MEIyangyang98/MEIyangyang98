@@ -1,0 +1,6 @@
+>>> import pathlib
+>>> file_name = "introduction.txt"
+>>> introduction_doc = nlp(pathlib.Path(file_name).read_text(encoding="utf-8"))
+>>> print ([token.text for token in introduction_doc])
+['This', 'tutorial', 'is', 'about', 'Natural', 'Language',
+'Processing', 'in', 'spaCy', '.', '\n']
