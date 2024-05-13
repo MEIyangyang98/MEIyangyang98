@@ -1,0 +1,5 @@
+>>> about_text = (
+...     "Gus Proto is a Python developer currently"
+...     " working for a London-based Fintech"
+...     " company. He is interested in learning"
+...     " Natural Language Processing."
