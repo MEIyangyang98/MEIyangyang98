@@ -1,0 +1,4 @@
+{
+	COORD pos = { i,j };
+	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
+}
