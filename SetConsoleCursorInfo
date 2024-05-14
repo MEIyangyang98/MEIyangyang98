@@ -1,0 +1,8 @@
+	SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE), &cursor);
+
+	srand((unsigned)time(NULL));
+
+	Game game;
+	game.showMenu();
+	return 0;
+}
