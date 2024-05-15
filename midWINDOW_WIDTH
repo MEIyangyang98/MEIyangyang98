@@ -1,0 +1,8 @@
+					while (1)
+					{
+						mid = rand() % (WIDTH - aw) + (WINDOW_WIDTH / 2 - WIDTH / 2);
+						if (abs(mid - p_AP2->x) > aw)
+						{
+							p_AP2->x = mid;
+							break;
+						}
