@@ -1,0 +1,10 @@
+					}
+					PlaySound(L"Bomb.wav", NULL, SND_FILENAME | SND_ASYNC);
+				}
+				else
+				{
+					fillroundrect(P->x, P->y, P->x + 10, P->y + 35, 10, 30);
+					P->y -= 5;
+					P = P->pnext;
+				}
+			}
