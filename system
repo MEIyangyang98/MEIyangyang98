@@ -1,0 +1,9 @@
+    scanf("%d",&a);
+    switch(a)
+    {
+        case 1:{system("cls");}break;
+        case 2:{system("cls");exit(0);}break;
+        default:{system("cls");printf("请看清楚要求！");_getch();gameover(h);}break;
+    }
+} 
+  
